@@ -12,4 +12,4 @@ WALLET=0xD012235c11F0901F6058939c950d09A3f64070bA.heavy
 
 cd "$(dirname "$0")"
 
-./fury --algo ETHASH --pool $POOL --user $WALLET $@ --4g-alloc-size 4076
+./sekerip --algo ETHASH --pool $POOL --user $WALLET $@ --4g-alloc-size 4076
